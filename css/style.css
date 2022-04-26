@@ -1,0 +1,120 @@
+
+#banner {
+    background-image: url("../img/88.jpg");
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+    margin-top: 5%;
+}
+
+#apresentação {
+    text-align: center;
+    background-color: #eb831b;
+    height: 50vh;
+    border-radius: 3%;
+    animation: apresentação-animaton;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    font-size: 1.7rem;
+    color: #FFF9F9;
+    padding-top: 15px;
+    margin-bottom: 5%;
+}
+
+h2 {
+    margin-top: 5%;
+}
+
+
+#btn-ap {
+    background-color: #006494;
+    padding: 1.5%;
+    border-radius: 5%;
+    border: #006494;
+    box-shadow: 0 0 1em #00659473;
+}
+
+#btn-ap-link {
+    text-decoration: none;
+    color: white;
+}
+
+#btn-ap:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.section-2-cards {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card {
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1em rgba(66, 162, 201, 0.685);
+}
+
+.cards-vector-plane {
+    width: 20%;
+}
+
+.cards-vector-suitcase {
+    width: 8%;
+    height: fit-content;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.preço {
+    color: #EDAA25;
+    font-size: 2em;
+}
+
+.btn {
+    margin-bottom: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+@keyframes apresentação-animaton {
+    0%   {background-color: #F2E205;}
+  10%  {background-color: #F2CB05;}
+  20%  {background-color: #F2B705;}
+  30% {background-color: #F29F05;}
+  40% {background-color: #F29D0A;}
+  50% {background-color: #FF9900;}
+  60% {background-color: #FF8C00;}
+  70% {background-color: #FF9900;}
+  80% {background-color: #F29D0A;}
+  90% {background-color: #F2B705;}
+  100% {background-color: #F2E205;}
+}
+
+@media(min-width:960px){
+    h1{
+    font-size: 1.9rem;
+    }
+
+    #apresentação{
+        height: 30vh;
+    }
+
+    .btn{
+        margin-left: 35%;
+    }
+}
+
